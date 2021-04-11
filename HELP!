@@ -1,0 +1,57 @@
+I'm taking the Google Data Analytics Professional Certificate throught Coursera
+I'm currently in the Data Analysis with R Programming course and 
+I can't pass the Course Challenge.
+Can someone help me?
+I've answered 10 of the 13 questions
+But can't get the other 3.
+If I get just one of them correct
+I will pass.
+Any help is greatly appreciated - even if you just point me toward getting the correct answer(s) myself!
+
+Here are the 3 questions I can't figure out.
+
+As part of the data science team at Gourmet Analytics, you use data analytics to advise companies in the food industry. 
+You clean, organize, and visualize data to arrive at insights that will benefit your clients. 
+As a member of a collaborative team, sharing your analysis with others is an important part of your job. 
+Your current client is Chocolate and Tea, an up-and-coming chain of cafes. 
+ 
+The eatery combines an extensive menu of fine teas with chocolate bars from around the world. 
+Their diverse selection includes everything from plantain milk chocolate, to tangerine white chocolate, to dark chocolate with pistachio and fig. 
+The encyclopedic list of chocolate bars is the basis of Chocolate and Tea’s brand appeal. Chocolate bar sales are the main driver of revenue. 
+Chocolate and Tea aims to serve chocolate bars that are highly rated by professional critics. 
+They also continually adjust the menu to make sure it reflects the global diversity of chocolate production. 
+The management team regularly updates the chocolate bar list in order to align with the latest ratings and to ensure 
+that the list contains bars from a variety of countries. 
+They’ve asked you to collect and analyze data on the latest chocolate ratings. 
+In particular, they’d like to know which countries produce the highest-rated bars of 
+super dark chocolate (at least 80% cocoa). This data will help them create their next chocolate bar menu. 
+Your team has received a dataset that features the latest ratings for thousands of chocolates from around the world. 
+Click here to access the dataset. Given the data and the nature of the work you will do for your client, your team agrees to use R for this project. 
+
+
+Question 6
+Scenario 1, continued
+Next, you select the basic statistics that can help your team better understand the ratings system in your data. 
+Assume the first part of your code chunk is: trimmed_flavors_df %>% 
+Write the remainder of the code chunk that allows you to determine the maximum rating for your data. Type your answer below.
+
+Question 7
+Scenario 1, continued
+After completing your analysis of the rating system, you determine that any rating 
+equal to or greater than 3.9 can be considered a high rating. 
+You also know that Chocolate and Tea considers any bar that contains at least 75% cocoa to be super dark chocolate. 
+You decide to use code to find out which chocolate bars meet these two conditions. 
+Assume the first part of your code chunk is: best_trimmed_flavors <- trimmed_flavors_df %>% 
+Write the remainder of the code chunk that allows you to filter the data frame for chocolate bars 
+that contain at least 80% cocoa and have a rating of at least 3.9 points. Type your answer below.
+
+Question 9
+Now that you’ve cleaned and organized your data, you’re ready to create some useful data visualizations. 
+Your team assigns you the task of creating a series of visualizations based on requests from the Chocolate and Tea management team. 
+You decide to use ggplot2 to create your visuals. 
+
+Your bar chart reveals the locations that produce the highest rated chocolate bars. 
+To get a better idea of the specific rating for each location, you’d like to highlight each bar with a different color. 
+Assume that you are working with the code chunk: ggplot(data = best_trimmed_flavors_df) + geom_bar(mapping = aes(x = Company.Location)) 
+Rewrite the existing code chunk so that each bar has a fill color based on its rating. Type you answer below.
+
